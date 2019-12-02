@@ -8,6 +8,6 @@ edition = "2018"
 
 [dependencies]
 futures = "0.3"
-tokio = { version = "0.2", features = [ "io-util", "macros", "rt-core", "uds" ] }
+tokio = { version = "0.2", features = [ "io-util", "macros", "rt-threaded", "uds" ] }
 libc = "0.2"
 utils = { path = "../utils" }
