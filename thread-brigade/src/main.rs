@@ -21,8 +21,8 @@ fn busywork(buf_ptr: *const u8, num_iters: usize) {
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     const NUM_TASKS: usize = 512;
-    const NUM_CHAINS: usize = 8;
-    const NUM_CHECKS: usize = 8192;
+    const NUM_CHAINS: usize = 16;
+    const NUM_CHECKS: usize = 65536;
     const NUM_WARMUP_REPS: usize = 100;
     const NUM_REPS: usize = 10000;
 
